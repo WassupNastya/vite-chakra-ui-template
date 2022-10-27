@@ -1,12 +1,12 @@
-import { ChakraProvider } from '@chakra-ui/react';
-import { MainPage } from './pages/main';
+import { ChakraProvider } from '@chakra-ui/react'
+import React from 'react'
 
 function App() {
   return (
     <ChakraProvider>
-      <MainPage />
+      <div>Hello, undefined</div>
     </ChakraProvider>
-  );
+  )
 }
 
-export default App;
+export default App
